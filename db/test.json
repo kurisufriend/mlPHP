@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "titles": ["testing!"],
+        "authors": ["nipponeselandian"],
+        "artists": ["nipponeselandian"],
+        "last_updated": 1,
+        "chapters":
+        [
+            {
+                "id": 1,
+                "manga_id": 1,
+                "chapter_no": 1,
+                "chapter_postfix": "",
+                "ordinal": null,
+                "title": "c001",
+                "page_count": 6069,
+                "version": 1,
+                "language_id": "en",
+                "group_id": null,
+                "date_added": 1,
+                "ipfs_link": "bafybeihnoou2av5w2bzmwkl6hi25scyzz6sjwdfqp4cwq2ikf6dfmev3ta",
+                "scanlator":
+                {
+                    "id": 1,
+                    "name": "Yado Inn",
+                    "website": "https://yado-inn.com"
+                }
+            }
+        ]
+    }
+]
