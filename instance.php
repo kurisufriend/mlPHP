@@ -13,7 +13,7 @@ class ml
     {
         foreach ($this->db as $manga)
         {
-            if ($manga["id"] == $id)
+            if ($manga["info"]["id"] == $id)
             {
                 return($manga);
             }

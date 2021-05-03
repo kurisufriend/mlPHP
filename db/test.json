@@ -1,10 +1,35 @@
 [
     {
-        "id": 1,
-        "titles": ["testing!"],
-        "authors": ["nipponeselandian"],
-        "artists": ["nipponeselandian"],
-        "last_updated": 1,
+        "info":
+        {
+            "id": 1,
+            "type": "Manga",
+            "titles":
+            [
+                "testing!"
+            ],
+            "artists":
+            [
+                "artist!"
+            ],
+            "authors":
+            [
+                "Sakurai Norio"
+            ],
+            "genres":
+            [
+                "Comedy",
+                "Romance",
+                "School"
+            ],
+            "country_of_origin": "JP",
+            "publication_status": "Ongoing",
+            "scanlation_status": true,
+            "mal_id": 0,
+            "anilist_id": 0,
+            "mangaupdates_id": 0,
+            "last_updated": 1617791510
+        },
         "chapters":
         [
             {
