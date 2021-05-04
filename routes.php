@@ -21,14 +21,14 @@ function route($path, $ml)
             {
                 return json_encode($ml->getManga($_GET["id"])["info"]);
             }
-            http_response_code(404);
+            http_response_code(400);
             break;
         case "/manga/get_chapters":
             if (isset($_GET["id"]))
             {
                 return json_encode($ml->getManga($_GET["id"])["chapters"]);
             }
-            http_response_code(404);
+            http_response_code(400);
             break;
         case "/manga/thumbnail":
             if (isset($_GET["id"]))
@@ -37,7 +37,7 @@ function route($path, $ml)
                 readfile("thumbnail/".$_GET["id"].".webp");
                 return;
             }
-            http_response_code(404);
+            http_response_code(400);
             break;
         default:
             http_response_code(404);
