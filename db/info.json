@@ -1,6 +1,6 @@
 {
     "name": "php instance testing",
-    "test.cynic.moe": "localhost",
+    "address": "test.cynic.moe",
     "operator": "cynic",
     "icon": "",
     "description": "aaaathats4as",
