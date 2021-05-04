@@ -2,6 +2,7 @@
 include_once("instance.php");
 function route($path, $ml)
 {
+    header('Content-Type:application/json');
     switch ($path)
     {
         case "/info":
@@ -9,7 +10,7 @@ function route($path, $ml)
             break;
         case "/manga/search":
             $response = [];
-            foreach ($ml->db as $manga)
+            foreach ($ml->db["manga"] as $manga)
             {
                 array_push($response, $manga["info"]);
             }
@@ -40,7 +41,6 @@ function route($path, $ml)
             break;
         default:
             http_response_code(404);
-            return("lol@".$path);
     }
 }
 ?>

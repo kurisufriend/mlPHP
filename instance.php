@@ -11,7 +11,7 @@ class ml
     }
     function getManga($id)
     {
-        foreach ($this->db as $manga)
+        foreach ($this->db["manga"] as $manga)
         {
             if ($manga["info"]["id"] == $id)
             {
