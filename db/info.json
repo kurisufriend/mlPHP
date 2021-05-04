@@ -1,8 +1,8 @@
 {
-    "name": "php instance testing",
-    "address": "test.cynic.moe",
-    "operator": "cynic",
-    "icon": "",
-    "description": "aaaathats4as",
+    "name": "INSTANCE_NAME",
+    "address": "INSTANCE_ADDRESS",
+    "operator": "INSTANCE_OPERATOR",
+    "icon": "INSTANCE_ICON",
+    "description": "INSTANCE_DESCRIPTION",
     "version": "0.1-php" 
 }
