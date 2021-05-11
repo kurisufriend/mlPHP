@@ -6,7 +6,7 @@ implemented:
 | type | route | args | returns |
 | -------------| ------------- | ------------- | ------------- |
 | GET | /info  | | application/json  |
-| GET | /manga/search  | ?title=str, ?author=str, ?artist=str, ?tags=(str,str...), ?sort | application/json  |
+| GET | /manga/search  | ?title=str, ?author=str, ?artist=str, ?genre=str, ?sort | application/json  |
 | GET | /manga/from_id  | ?id=int | application/json  |
 | GET | /manga/get_chapters  | ?id=int | application/json  |
 | GET | /manga/thumbnail  | ?id=int | image/webp  |
