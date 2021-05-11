@@ -20,6 +20,15 @@ class ml
         }
         return(0);
     }
+    function getAllMangaInfo()
+    {
+        $response = [];
+        foreach ($this->db["manga"] as $manga)
+        {
+            array_push($response, $manga["info"]);
+        }
+        return $response;
+    }
     function run()
     {
         echo(route($_SERVER["PATH_INFO"], $this));
