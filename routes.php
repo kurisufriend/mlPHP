@@ -4,7 +4,7 @@ function substrInArr($needle, $haystack)
 {
     foreach ($haystack as $str)
     {
-        if (strpos($str, $needle))
+        if (strpos($str, $needle) !== false) //it return 0 if that's the index and false if there is no index, so we need the !== false
         {
             return true;
         }
@@ -66,6 +66,7 @@ function route($path, $ml)
 
         default:
             http_response_code(404);
+            echo("404 not found");
     }
 }
 ?>

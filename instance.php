@@ -31,7 +31,7 @@ class ml
     }
     function run()
     {
-        echo(route($_SERVER["PATH_INFO"], $this));
+        echo(route(explode("?", $_SERVER["REQUEST_URI"])[0], $this));
     }
 }
 ?>
