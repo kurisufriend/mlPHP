@@ -11,6 +11,7 @@ implemented:
 | GET | /manga/get_chapters  | ?id=int | application/json  |
 | GET | /manga/thumbnail  | ?id=int | image/webp  |
 | GET | /thumbnail  | static /(id).webp | image/webp  |
-
+| GET | /manga/people  |  | application/json  |
+| GET | /manga/scanlators  | | application/json  |
 ### to do:
 * use sqlite instead of hack-y jsons
