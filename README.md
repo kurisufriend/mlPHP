@@ -1,5 +1,5 @@
 # mlPHP
-want a mangaloid instance? like men? this repository might be for you
+want a mangaloid instance? hate things functioning properly? this repository might be for you
 
 implemented:
 
